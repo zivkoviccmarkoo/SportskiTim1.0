@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/siva"
+    android:background="@drawable/poz"
 
     android:layout_height="match_parent"
     tools:context=".IgracUTimu">
@@ -33,10 +33,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:alpha="0.8"
         android:layout_marginTop="140dp"
         android:layout_marginLeft="30dp"
         android:inputType="number"
+
+
         android:text="Unesi OIB igraca"
+
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,8 +53,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:alpha="0.8"
+
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         android:text="Unesi maticni broj tima"
 
         android:inputType="number"
@@ -63,6 +75,11 @@
         android:layout_marginLeft="30dp"
         android:inputType="date"
         android:text="Unesi datum prikljucenja"
+
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:alpha="0.8"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />

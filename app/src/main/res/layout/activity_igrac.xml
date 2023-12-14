@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/siva"
+    android:background="@drawable/poz"
 
     tools:context=".Igrac">
 
@@ -12,6 +12,8 @@
         android:layout_width="300dp"
         android:layout_height="400dp"
         android:layout_marginTop="30dp"
+        android:background="@color/siva"
+        android:alpha="0.7"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

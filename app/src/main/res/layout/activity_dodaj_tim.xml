@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/siva"
+    android:background="@drawable/poz"
 
     tools:context=".DodajTim">
 
@@ -33,10 +33,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:alpha="0.8"
         android:inputType="text"
         android:text="Unesi ime tima"
         android:layout_marginTop="140dp"
         android:layout_marginLeft="30dp"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,9 +50,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:alpha="0.8"
         android:layout_marginLeft="30dp"
         android:text="Unesi maticni broj"
         android:ems="10"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         android:inputType="number"
 
         app:layout_constraintStart_toStartOf="parent"
@@ -58,10 +66,14 @@
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:alpha="0.8"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
         android:ems="10"
         android:inputType="text"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         android:text="Unesi kontakt tima"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
@@ -75,6 +87,10 @@
         android:layout_marginLeft="30dp"
         android:inputType="text"
         android:text="Unesi adreu tima"
+        android:alpha="0.8"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/siva"
+    android:background="@drawable/poz"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -60,8 +60,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ListView
+        android:background="@color/siva"
         android:layout_width="350dp"
         android:layout_height="400dp"
+        android:alpha="0.7"
         app:layout_constraintBottom_toTopOf="@+id/btn_dodajutim"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

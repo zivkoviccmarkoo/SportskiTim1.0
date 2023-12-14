@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/siva"
+    android:background="@drawable/poz"
     android:layout_height="match_parent"
     tools:context=".DodajIgraca">
 
@@ -36,9 +36,11 @@
         android:inputType="text"
         android:text=" Unesi ime tima"
         android:layout_marginTop="140dp"
-
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:alpha="0.8"
         android:layout_marginLeft="30dp"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,6 +52,10 @@
         android:layout_marginLeft="30dp"
         android:text="Unesi maticni broj"
         android:ems="10"
+        android:alpha="0.8"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         android:inputType="number"
 
         app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +67,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
+        android:alpha="0.8"
         android:ems="10"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         android:inputType="text"
         android:text="Unesi kontakt tima"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,19 +81,28 @@
         android:id="@+id/editTextText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
         android:ems="10"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         android:inputType="text"
+        android:alpha="0.8"
         android:text="Unesi adreu tima"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
     <EditText
         android:id="@+id/editTextText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginTop="30dp"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:alpha="0.8"
         android:layout_marginLeft="30dp"
         android:inputType="text"
         android:text="Unesi adreu tima"
@@ -94,10 +113,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:alpha="0.8"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
         android:inputType="text"
         android:text="Unesi adreu tima"
+        android:background="@color/siva"
+        android:textSize="25sp"
+        android:padding="5dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
 
